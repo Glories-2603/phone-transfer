@@ -1,0 +1,17 @@
+# personal data: never commit
+backup/
+transfer_log.txt
+settings.json
+
+# downloaded Google platform-tools
+platform-tools/
+platform-tools.zip
+adb.exe
+AdbWinApi.dll
+AdbWinUsbApi.dll
+
+# build
+__pycache__/
+build/
+dist/
+*.spec
