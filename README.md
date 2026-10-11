@@ -23,7 +23,8 @@ Nothing is deleted on either phone. A copy can be kept on the computer in the `b
 1. On **both** phones enable *Developer options → USB debugging*
    (Settings → About phone → tap *Build number* seven times to show Developer options).
 2. Connect both phones by USB and allow the debugging prompt on each screen.
-3. Start the program: `run.bat` on Windows, or `python phone_transfer.py` (Python 3.9+, no extra packages).
+3. Start the program: download `PhoneTransfer.exe` from [Releases](../../releases) (Windows, nothing to install),
+   or run `run.bat` / `python phone_transfer.py` (Python 3.9+, no extra packages).
 4. Check the *From* / *To* phones, tick what to copy and press **Transfer**.
 
 The program needs Google's `adb`. If it is not on the computer, it offers to download the official
